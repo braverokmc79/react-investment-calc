@@ -33,6 +33,10 @@ function App() {
 
       {!inputIsValid && <p className="center">0보다 큰 기간을 입력하세요.</p> }
       {inputIsValid && <Results input={userInput} /> }
+
+      <footer className="text-cener">
+        <a href="https://macaronics.net/" target="_blank">macaroncis.net</a>
+      </footer>
     </>
   );
 }
